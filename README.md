@@ -7,7 +7,7 @@
 # UIN= 668581235
 ### Cloud computing is on the forefront in terms of reliability, security, fault-tolerance, sustainability, and scalability in computational services.
 ### Different simulations with different parameters have been explored using time-shared policy and space share-shared policy.
-### Main focus of interest was the scala language, I used Java too and the project is built in SBT.
+### I used the scala and Java language for this project and the project is built in SBT.
 
 ## Prerequisite:
 ### SBT installed on the system.
