@@ -21,3 +21,7 @@
 ### 7. Go to terminal of IntelliJ :(process can be done in cmd of Windows too)
     sbt clean compile test
     sbt clean compile run
+# Future Work:
+### Create a dyanmic cloudlet so that the work is not paused at any time, like we experienced here that it stopped after receving specific number of jobs. This problem of high workload is present in general.
+### We should simulate this simulation towards jobs like spark.
+### Work on the feedbacks received. 
