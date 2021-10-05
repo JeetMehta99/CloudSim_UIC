@@ -11,11 +11,11 @@ class BasicCloudSimPlusExampleTestSuite extends AnyFlatSpec with Matchers
 
   it should "obtain the get cost per second" in {
     val config: Config = ConfigFactory.load("DCsimul.conf")
-    config.getDouble("simulation1.datacenter1.getcpsecond") shouldBe 1.0E0
+    config.getDouble("simulation1.dataCenter1.getcpsecond") shouldBe 1.0E0
   }
 
   it should "obtain the MIPS capacity" in {
     val config: Config = ConfigFactory.load("application.conf")
-    config.getLong("simulation1.datacenter1.vm.mips") shouldBe 1000
+    config.getLong("simulation1.vm1.mips") shouldBe 1000
   }
 }
