@@ -1,4 +1,4 @@
-Student:
+Student: Jeet Paresh Mehta
 Grader: Vineet Patel
 
 Homework 1
@@ -26,32 +26,9 @@ Grading Criteria:
  - no instructions in README.md on how to install and run your simulator:
     * instructions present: 0%
  - the program crashes without completing the core functionality:
-    * program runs but terminates with runtime exception: -4%
+    * program runs (after fix): -1%
  - the documentation exists but it is insufficient to understand your cloud simulation design and models and how you assembled and deployed all components of the cloud:
     * documentation present: -0%
-Total grade: 2.5%
-Comments: I couldn't compile the java test cases, let me know if it's supposed to compile. And during runtime, there was
-an exception:
-[error] (run-main-1) com.typesafe.config.ConfigException$Missing: system properties: No configuration setting found for key 'simulation1'
-[error] com.typesafe.config.ConfigException$Missing: system properties: No configuration setting found for key 'simulation1'
-[error]         at com.typesafe.config.impl.SimpleConfig.findKeyOrNull(SimpleConfig.java:157)
-[error]         at com.typesafe.config.impl.SimpleConfig.findKey(SimpleConfig.java:150)
-[error]         at com.typesafe.config.impl.SimpleConfig.findOrNull(SimpleConfig.java:177)
-[error]         at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:189)
-[error]         at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:194)
-[error]         at com.typesafe.config.impl.SimpleConfig.getConfigNumber(SimpleConfig.java:224)
-[error]         at com.typesafe.config.impl.SimpleConfig.getNumber(SimpleConfig.java:230)
-[error]         at com.typesafe.config.impl.SimpleConfig.getLong(SimpleConfig.java:241)
-[error]         at jeet.assign.cc1.utils.HostConfig.<init>(HostConfig.scala:11)
-[error]         at jeet.assign.cc1.simulations.CloudletexecSimulation.<init>(CloudletexecSimulation.scala:24)
-[error]         at jeet.assign.cc1.execSimulation$.main(execSimulation.scala:21)
-[error]         at jeet.assign.cc1.execSimulation.main(execSimulation.scala)
-[error]         at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[error]         at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[error]         at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[error]         at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-[error] stack trace is suppressed; run 'last Compile / bgRun' for the full output
-[error] Nonzero exit code: 1
-[error] (Compile / run) Nonzero exit code: 1
-[error] Total time: 2 s, completed Oct 3, 2021, 2:51:19 PM
-[IJ]
+Total grade: 5.5%
+Comments: I restored 3% points. The 1% is kept as a penalty for having to re-edit a submission. 
+Next time, make sure your submission works completely. 
